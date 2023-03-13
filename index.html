@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Tela de login</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="./src/imagens/logo-icon.png" alt="Logo Flutter Floripa">
+        </div>
+        <div class="image__topo">
+            <img src="./src/imagens/bg-blur-1.png" alt="fundo gradiente topo">
+        </div>
+        <div class="nav">
+            <h1 class="titulo">Bem-vindo<span class="span__titulo">ao FlutterFloripa!</span></h1>
+            <p>A comunidade oficial Flutter em Florianópolis-SC</p>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="container__login">
+                <div>
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="E-mail">
+                </div>
+                <div>
+                    <label for="pass"></label>
+                    <input type="password" id="pass" name="password" minlength="8" required placeholder="Senha">
+                </div>
+            </div>
+            <input class="btn" type="submit" value="entrar">
+            <div>
+                <img src="./src/imagens/bg-blur-2.png" alt="fundo gradiente section">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Esqueceu sua senha? <span class="span__footer">Recupere aqui</span></p>
+        <img src="./src/imagens/bg-blur-3.png" alt="fundo gradiente footer">
+    </footer>
+</body>
+
+</html>
