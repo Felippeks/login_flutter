@@ -10,45 +10,47 @@
 </head>
 
 <body>
-    <header class="cabecalho">
-        <div class="logo">
-            <img src="./src/imagens/logo-icon.png" alt="Logo Flutter Floripa"/>
-        </div>
-        <div class="image__topo">
-            <img src="./src/imagens/bg-blur-1.png" alt="fundo gradiente topo"/>
-        </div>
-        <div class="nav">
-            <h1 class="titulo">Bem-vindo<span class="span__titulo">ao FlutterFloripa!</span></h1>
-            <p>A comunidade oficial Flutter em Florianópolis-SC</p>
-        </div>
-    </header>
-    <section>
-        <div class="container">
-            <div class="container__login">
-                <div>
-                    <label for="email"><i class="fas fa-envelope"></i></label>                    
-                    <input type="email" id="email" name="email" placeholder="E-mail">
+    <div class="test">
+        <header class="cabecalho">
+            <div class="logo">
+                <img src="./src/imagens/logo-icon.png" alt="Logo Flutter Floripa"/>
+            </div>
+            <div class="image__topo">
+                <img src="./src/imagens/bg-blur-1.png" alt="fundo gradiente topo"/>
+            </div>
+            <div class="nav">
+                <h1 class="titulo">Bem-vindo<span class="span__titulo">ao FlutterFloripa!</span></h1>
+                <p>A comunidade oficial Flutter em Florianópolis-SC</p>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <div class="container__login">
+                    <div class="icons__position">
+                        <i class="fas fa-envelope"></i>                    
+                        <input type="email" id="email" name="email" placeholder="E-mail">
+                    </div>
+                    <div class="icons__position">
+                        <i class="fas fa-key"></i>
+                        <input type="password" id="pass" name="password" minlength="8" required placeholder="Senha">
+                        <i class="fa-regular fa-eye-slash"></i>
+                    </div>
                 </div>
-                <div>
-                    <label for="pass"><i class="fas fa-key"></i></label>
-                    <input type="password" id="pass" name="password" minlength="8" required placeholder="Senha">
-                    <i class="fa-regular fa-eye-slash"></i>
+                <div class="botao">
+                    <input class="btn" type="submit" value="entrar">
+                </div>
+                <div class="recupera__senha">
+                    <p>Esqueceu sua senha? <span class="span__recupera"><strong>Recupere aqui</strong></span></p>
+                </div>
+                <div class="image__bottom">
+                    <img src="./src/imagens/bg-blur-2.png" alt="fundo gradiente section">
+                </div>
+                <div class="footer">
+                    <img src="./src/imagens/bg-blur-3.png" alt="fundo gradiente footer" />
                 </div>
             </div>
-            <div class="botao">
-                <input class="btn" type="submit" value="entrar">
-            </div>
-            <div class="recupera__senha">
-                <p>Esqueceu sua senha? <span class="span__recupera"><strong>Recupere aqui</strong></span></p>
-            </div>
-            <div>
-                <img src="./src/imagens/bg-blur-2.png" alt="fundo gradiente section">
-            </div>
-        </div>
-    </section>
-    <footer class="footer">
-        <img src="./src/imagens/bg-blur-3.png" alt="fundo gradiente footer"/>
-    </footer>
+        </section>
+    </div>
 </body>
 
 </html>
