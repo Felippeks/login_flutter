@@ -1,0 +1,192 @@
+@media screen and (max-width: 440px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@300;400;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        --color-primary: #1e5be4;
+        --color-second: #BD2860;
+        --color-backgroud: #ffffff;
+        --color-text: #767676;
+    }
+
+    body {
+        font-family: "Roboto", sans-serif;
+        background-color: var(--color-backgroud);
+    }
+
+
+    .logo {
+        padding: 1rem;
+    }
+
+    .logo img {
+        position: absolute;
+        width: 116.51px;
+        height: 116.51px;
+        left: 145.49px;
+        top: 74px;
+    }
+
+    .image__topo {
+        position: absolute;
+        width: 17.5rem;
+        height: 17.5rem;
+        left: -6.6875rem;
+        top: -3.4375rem;
+        right: 0;
+        z-index: -1;
+    }
+
+    .image__topo img {
+        width: 100%;
+    }
+
+    .nav {
+        padding: 2rem;
+    }
+
+    .titulo {
+        font-size: 2rem;
+        color: #000;
+        margin-bottom: 1rem;
+        margin-top: 9rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .span__titulo {
+        color: var(--color-primary);
+    }
+
+    .nav p {
+        position: absolute;
+        width: 341px;
+        height: 42px;
+        left: 26px;
+        top: 306px;
+    font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 1.3125rem;
+        text-align: center;
+        max-width: 37ch;
+        color: var(--color-text);
+
+    }
+
+    section {
+        padding: 4rem 0;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .container__login {
+        background-color: var(--color-backgroud);
+        padding: 2rem;
+        padding-top: 1rem;
+        border-radius: 5px;
+        z-index: 1;
+    }
+
+    .container__login input {
+        background-color: #F3F3F3;
+        /* display: block; */
+        width: 21.3125rem;
+        height: 3.375rem;
+        padding: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+
+    }
+
+    .container__login input:focus {
+        outline: none;
+        border-color: #0080FF;
+    }
+
+    .botao {
+        padding: 2rem 0rem 0 2rem;
+    }
+
+    .btn {
+        width: 21.3125rem;
+        height: 3.375rem;
+        padding: 1rem;
+        border: none;
+        background: linear-gradient(90deg, #0052D4 0%, #488FFA 100%);
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-family: 'PT Sans';
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 23px;
+        color: var(--color-backgroud);
+    }
+
+    .container img {
+        position: absolute;
+        top: 9.43rem;
+        left: -9rem;
+        width: 17.5rem;
+        height: 17.5rem;
+        z-index: -1;
+    }
+
+    .recupera__senha {
+        position: absolute;
+        width: 244px;
+        height: 21px;
+        left: 75px;
+        top: 19rem;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+        color: var(--color-text);
+    }
+
+    .span__recupera {
+        color: var(--color-second);
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .footer {
+        /* background-color: #d51f1f; */
+        float: left;
+        padding-top: 70px;
+        padding-bottom: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .footer img {
+        max-width: 100%;
+        position: absolute;
+        width: 54px;
+        height: 54px;
+        left: 21rem;
+        top: 46rem;
+
+        background: linear-gradient(161.73deg, #0052D4 -12.96%, rgba(217, 217, 217, 0) 81.28%);
+        filter: blur(25px);
+        transform: rotate(-159.28deg);
+    }
+}
